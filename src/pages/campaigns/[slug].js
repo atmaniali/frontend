@@ -43,6 +43,8 @@ export default function Detail({ response }) {
         ></meta>
       </Header>
 
+      
+
       {/* background style */}
       <div className={styles.wrapper}>
         <div className={styles.main}></div>
