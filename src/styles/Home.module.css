@@ -1,0 +1,34 @@
+.main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background:rgba(31, 56, 109, 0.521);
+  color:white
+}
+
+.container{
+  /* border: 1px solid red; */
+  background-color: rgba(31, 56, 109, 0.521);
+  margin-bottom: 2rem;
+  border-radius: 10%;
+}
+
+.container:hover{
+  background:rgba(46, 64, 102, 0.521);
+}
+
+.image{
+  float: left;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  
+}
+
+.img{
+  border-radius: 100%;
+}
+
+.paragraph{
+  padding: 1.5em;
+}

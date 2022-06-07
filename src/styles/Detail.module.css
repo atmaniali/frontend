@@ -1,0 +1,489 @@
+@media only screen and (min-width: 1224px) {
+  /* desktop screen */
+  .body{
+    scroll-behavior: smooth;
+  }
+  .wrapper {
+    background-color: rgb(48, 80, 80);
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .main {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.aKSPWgd9mC-igjRvNI2QLgHaFf%26pid%3DApi&f=1");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    opacity: 0.4;
+  }
+
+  .footer {
+    z-index: 2;
+    margin-top: 2rem;
+    border-top: 1px solid white;
+    color: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+  }
+
+  .containers {
+    width: 100%;
+    padding: 7rem 10rem;
+    /* color: black; */
+    margin-bottom: 2rem;
+  }
+
+  .image {
+    border-radius: 100%;
+    position: absolute;
+    z-index: 2;
+  }
+
+  .content {
+    
+    color: white;
+    display: flex;
+    /* flex-wrap: nowrap; */
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+    margin-bottom: 20px;
+  }
+
+  .left {
+    width: 50%;
+    /* padding-bottom: 2rem; */
+  }
+
+  .right {
+    width: 50%;
+    margin-right: 20%;
+    /* align-self: flex-start; */
+  }
+
+  .formInput {
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 1.1rem;
+  }
+
+  .subscribe {
+    width: 100%;
+    font-size: 1.1rem;
+    background-color: purple;
+    color: white;
+  }
+
+  .subscribe:hover {
+    background-color: rgb(173, 61, 173);
+  }
+}
+
+
+/* Tablet (landscape) ----------- */
+/* Width > height */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (min-device-height: 600px) and (orientation: landscape) {
+  /* Styles */
+  /* screen tablet */
+
+  .body{
+      color: white;
+  }
+
+  .wrapper {
+    background-color: rgb(48, 80, 80);
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+  .main {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.aKSPWgd9mC-igjRvNI2QLgHaFf%26pid%3DApi&f=1");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    opacity: 0.4;
+  }
+
+  .footer {
+    margin-top: 20px;  
+    z-index: 2;
+    border-top: 1px solid white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .containers {
+    width: 100%;
+    padding: 7rem 7rem;
+  }
+
+  .image {
+    border-radius: 100%;
+    position: absolute;
+    z-index: 2;
+  }
+
+  .content {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+    width: 100%;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    position: fixed;
+    
+    /* margin-left: 5%; */
+  }
+
+  .left {
+    /* align-self: center; */
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .right {
+    /* align-self: center; */
+    /* padding: 2rem; */
+  }
+
+  .formSet{
+    width: 100%; 
+    padding-left: 2rem;
+    /* padding-right: 0; */
+    display: flex;
+    /* justify-content: space-between; */
+  }
+
+  .formInput {
+    /* margin-bottom: 20px; */
+    width: 70%;
+    font-size: 1.1rem;
+  }
+  .subscribe {
+      width: 20%;
+      font-size: 1.1rem;
+      background-color: purple;
+      color: white;
+      margin-left: 5%;
+    }
+
+    .subscribe:hover {
+        background-color: rgb(173, 61, 173);
+      }
+  
+}
+
+
+/* Tablet (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (min-device-height: 768px)
+and (orientation : portrait) {
+/* Styles */
+.body {
+    overflow: hidden;
+    color: white;
+  }
+  .wrapper {
+    background-color: rgb(48, 80, 80);
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .main {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.aKSPWgd9mC-igjRvNI2QLgHaFf%26pid%3DApi&f=1");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    opacity: 0.4;
+  }
+
+  .footer {
+    z-index: 2;
+    border-top: 1px solid white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+  }
+
+  .containers {
+    width: 100%;
+    padding: 7rem 7rem;
+  }
+  .image {
+    border-radius: 100%;
+    position: absolute;
+    z-index: 2;
+  }
+
+  .content {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+    width: 100%;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    position: fixed;
+    /* margin-left: 5%; */
+  }
+
+  .formInput {
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 1.1rem;
+  }
+
+  .left {
+    /* align-self: center; */
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .right {
+    /* align-self: center; */
+    padding: 2rem;
+  }
+
+  .subscribe {
+    width: 100%;
+    font-size: 1.1rem;
+    background-color: purple;
+    color: white;
+  }
+  .subscribe:hover {
+    background-color: rgb(173, 61, 173);
+  }
+}
+
+
+/* Smartphones (landscape) ----------- */
+/* Width > height */
+@media only screen 
+and (min-width : 321px)
+and (min-height : 321px) 
+and (orientation:landspace){
+/* Styles */
+.body{
+    color:white
+}
+.wrapper {
+    background-color: rgb(48, 80, 80);
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .main {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.aKSPWgd9mC-igjRvNI2QLgHaFf%26pid%3DApi&f=1");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    opacity: 0.4;
+  }
+
+  .footer {
+    z-index: 2;
+    border-top: 1px solid white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+  }
+  .containers {
+    width: 100%;
+    padding: 7rem 7rem;
+  }
+  .image {
+    border-radius: 100%;
+    position: absolute;
+    z-index: 2;
+  }
+
+  .content {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+    width: 100%;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    position: fixed;
+    /* margin-left: 5%; */
+  }
+
+  .formInput {
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 1.1rem;
+  }
+
+  .left {
+    /* align-self: center; */
+    display: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .right {
+    /* align-self: center; */
+    padding: 2rem;
+  }
+
+  .formInput {
+      margin-bottom: 20px;
+      width: 100%;
+      font-size: 1.1rem;
+    }
+
+  .subscribe {
+    width: 100%;
+    font-size: 1.1rem;
+    background-color: purple;
+    color: white;
+  }
+
+}
+
+@media only screen 
+  and (min-width : 320px)
+  and (min-height : 321px) 
+  and (orientation: portrait){
+  /* Styles */
+  .body{
+      color: white;
+  }
+  .wrapper {
+    background-color: rgb(48, 80, 80);
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .main {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.aKSPWgd9mC-igjRvNI2QLgHaFf%26pid%3DApi&f=1");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    opacity: 0.4;
+  }
+
+  .footer {
+    z-index: 2;
+    border-top: 1px solid white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+  }
+  .containers {
+    width: 100%;
+    padding: 7rem 7rem;
+  }
+  .image {
+    border-radius: 100%;
+    position: absolute;
+    z-index: 2;
+  }
+
+  .content {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+    width: 100%;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    position: fixed;
+    /* margin-left: 5%; */
+  }
+
+  .formInput {
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 1.1rem;
+  }
+
+  .left {
+    /* align-self: center; */
+    display: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .right {
+    /* align-self: center; */
+    padding: 2rem;
+  }
+
+  .formInput {
+      margin-bottom: 20px;
+      width: 100%;
+      font-size: 1.1rem;
+    }
+
+  .subscribe {
+    width: 100%;
+    font-size: 1.1rem;
+    background-color: purple;
+    color: white;
+  }
+  }
+
+
+
+
+

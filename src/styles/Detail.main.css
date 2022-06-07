@@ -1,0 +1,154 @@
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* screen tablet */
+  
+    .body {
+      overflow: hidden;
+    }
+    .wrapper {
+      background-color: rgb(48, 80, 80);
+      height: 100vh;
+      position: fixed;
+      width: 100%;
+      z-index: 1;
+    }
+  
+    .main {
+      background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.aKSPWgd9mC-igjRvNI2QLgHaFf%26pid%3DApi&f=1");
+      height: 100%;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      position: absolute;
+      top: 0;
+      opacity: 0.4;
+    }
+  
+    .footer {
+      z-index: 2;
+      border-top: 1px solid black;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .containers {
+      width: 100%;
+      padding: 7rem 7rem;
+    }
+    .image {
+      border-radius: 100%;
+      position: absolute;
+      z-index: 2;
+    }
+  
+    .content {
+      color: white;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      /* flex-wrap: nowrap; */
+      width: 100%;
+      z-index: 2;
+      left: 0;
+      right: 0;
+      position: fixed;
+      /* margin-left: 5%; */
+    }
+  
+    .formInput {
+      margin-bottom: 20px;
+      width: 100%;
+      font-size: 1.1rem;
+    }
+  
+    .left {
+      /* align-self: center; */
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  
+    .right {
+      /* align-self: center; */
+      padding: 2rem;
+    }
+  
+    .formInput {
+        margin-bottom: 20px;
+        width: 100%;
+        font-size: 1.1rem;
+      }
+
+    .subscribe {
+      width: 100%;
+      font-size: 1.1rem;
+      background-color: purple;
+      color: white;
+    }
+
+  }
+
+
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 480px) {
+  /* Styles */
+  }
+
+  /* Smartphones (landscape) ----------- */
+  @media only screen 
+  and (min-width : 321px) {
+  /* Styles */
+  }
+
+  /* Smartphones (portrait) ----------- */
+  @media only screen 
+  and (max-width : 320px) {
+  /* Styles */
+  }
+
+  /* Tablet (portrait and landscape) ----------- */
+  @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) {
+  /* Styles */
+  }
+
+  /* Tablet (landscape) ----------- */
+  @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) 
+  and (orientation : landscape) {
+  /* Styles */
+  }
+
+  /* Tablet (portrait) ----------- */
+  @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) 
+  and (orientation : portrait) {
+  /* Styles */
+  }
+
+  /* Desktops and laptops ----------- */
+  @media only screen 
+  and (min-width : 1224px) {
+  /* Styles */
+  }
+
+  /* Large screens ----------- */
+  @media only screen 
+  and (min-width : 1824px) {
+  /* Styles */
+  }
+
+  /* iPhone 4 ----------- */
+  @media
+  only screen and (-webkit-min-device-pixel-ratio : 1.5),
+  only screen and (min-device-pixel-ratio : 1.5) {
+  /* Styles */
+  }
